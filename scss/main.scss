@@ -1,8 +1,10 @@
-$primary-bg: #000;
-$primary-text-color: #FF3B3B;
+$primary-bg: rgb(171, 151, 181);
+$primary-text-color: #241414;
 
+html,
 body {
-	background-color: $primary-bg
+	background-color: $primary-bg;
+	margin: 2em;
 }
 
 h1,
@@ -12,4 +14,104 @@ h4,
 h5,
 p {
 	color: $primary-text-color;
+}
+
+.logo-pic {
+	margin-right: auto;
+	width: 20vw;
+	height: 30vh;
+}
+
+.nav {
+	float: right;
+	padding: 20px;
+}
+
+.place-pic {
+	float: right;
+	width: 30%;
+	height: 30%;
+	padding-right: 100px;
+}
+
+p {
+	display: inline-block;
+	margin-bottom: 20%;
+	width: 50%;
+	font-size: 2em;
+	line-height: 1.5;
+	font-style: oblique;
+}
+
+footer {
+	height: auto;
+}
+// #name {
+// 	overflow: hidden;
+// 	// clear: both;
+// 	// float: left;
+// 	width: 20%;
+// }
+// #submit {
+// 	// clear: both;
+// 	float: right;
+// // }
+
+// textarea {
+// 	// float: left;
+// 	height: 20%;
+// 	width: 50%;
+// 	margin-top: 2vh;
+// 	margin-left: 3.6em;
+// }
+
+ul {
+	float: right;
+	width: 40%;
+	// position: absolute;
+	// top: 10%;
+	// right: 30%;
+	// margin-right: 7em;
+}
+
+li {
+	font-size: 2em;
+	line-height: 1.5;
+	padding: 0.5em;
+	list-style: circle;
+}
+input[type="text"],
+textarea {
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	width: 50%;
+	background-color: #4caf50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+
+div.container {
+	display: inline-block;
+	width: 50%;
+	//position: relative;
+	// overflow: hidden;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
 }
